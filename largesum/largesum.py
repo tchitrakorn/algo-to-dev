@@ -41,7 +41,7 @@ def largesum(numbers):
 
 if __name__ == "__main__":
 
-    file = open('input.txt', 'r')
+    file = open('input1.txt', 'r')
     lines = file.readlines()
     numbers = [line.strip() for line in lines]
 
